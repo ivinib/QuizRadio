@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.aluno.quizprova.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+            <TextView
+                android:text="@string/perg1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/txtPerg1" />
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:text="String Constante"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Resp1A" />
+
+                <RadioButton
+                    android:text="String Final"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Resp1B" />
+
+                <RadioButton
+                    android:text="String Variável"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Resp1C" />
+            </RadioGroup>
+
+
+            <TextView
+                android:text="@string/perg2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edtResp1"
+                android:layout_alignRight="@+id/txtPerg1"
+                android:layout_alignEnd="@+id/txtPerg1"
+                android:id="@+id/txtPerg2" />
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:text="Classe Final"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Resp2A" />
+
+                <RadioButton
+                    android:text="Classe Estática"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Resp2B" />
+
+                <RadioButton
+                    android:text="Classe Variável"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Resp2C" />
+            </RadioGroup>
+
+            <TextView
+                android:text="@string/perg3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtPerg3"
+                android:layout_below="@+id/edtResp2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:text="Include"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Resp3A" />
+
+                <RadioButton
+                    android:text="Extend"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Resp3B" />
+
+                <RadioButton
+                    android:text="View"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Resp3C" />
+            </RadioGroup>
+
+            <TextView
+                android:text="@string/perg4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtPerg4"
+                android:layout_below="@+id/edtResp3"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:text="SQL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Resp4A" />
+
+                <RadioButton
+                    android:text="AssyncTesc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Resp4B" />
+
+                <RadioButton
+                    android:text="Volley"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Resp4C" />
+            </RadioGroup>
+
+            <TextView
+                android:text="@string/perg5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtPerg4"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/txtPerg5"
+                android:layout_weight="8.41" />
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:text="MainActivity.java"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Resp5A" />
+
+                <RadioButton
+                    android:text="ActivityMain.xml"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Resp5B" />
+
+                <RadioButton
+                    android:text="dimens.xml"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Resp5C" />
+            </RadioGroup>
+
+            <TextView
+                android:text="@string/perg6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtPerg6" />
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:text="colors.xml"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Resp6A" />
+
+                <RadioButton
+                    android:text="dimens.xml"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Resp6B" />
+
+                <RadioButton
+                    android:text="strings.xml"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Resp6C" />
+            </RadioGroup>
+
+            <Button
+                android:text="@string/btnResposta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="btnResposta"
+                android:id="@+id/btnResposta" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

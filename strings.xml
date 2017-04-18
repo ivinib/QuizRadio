@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Quiz Prova</string>
+    <string name="perg1">O que significa a clausula final</string>
+    <string name="perg2">O que significa a clausula static</string>
+    <string name="perg3">Como se herda em Java</string>
+    <string name="perg4">Um tipo de conexão do Android criada pela Google</string>
+    <string name="perg5">Qual o arquivo do Android onde são definidas as permissões do aplicativo</string>
+    <string name="perg6">Qual o arquivo do Android onde são definidas as strings que serão usadas no sistema</string>
+    <string name="btnResposta">Ver Respostas</string>
+    <string name="respCerta1">Clausula Final</string>
+    <string name="respCerta2">Clausula Static</string>
+    <string name="respCerta3">Herdar em Java</string>
+    <string name="respCerta4">Volley</string>
+    <string name="respCerta5">MainActivity.java</string>
+    <string name="respCerta6">strings.xml</string>
+
+</resources>
